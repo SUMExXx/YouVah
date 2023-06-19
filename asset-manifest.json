@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YouVah/static/css/main.2a6046f8.css",
-    "main.js": "/YouVah/static/js/main.c269c8b2.js",
+    "main.css": "/YouVah/static/css/main.53fd6ce4.css",
+    "main.js": "/YouVah/static/js/main.44bfbefc.js",
     "static/js/734.f8358d55.chunk.js": "/YouVah/static/js/734.f8358d55.chunk.js",
     "static/media/CW 1.png": "/YouVah/static/media/CW 1.c42c067626c776879e39.png",
     "static/media/CW 2.png": "/YouVah/static/media/CW 2.e86fb9dce87f70711580.png",
@@ -15,12 +15,12 @@
     "static/media/company_img1.png": "/YouVah/static/media/company_img1.9271c682a1fe20544bca.png",
     "static/media/GRAHPIC ELEMENT.svg": "/YouVah/static/media/GRAHPIC ELEMENT.881bc09ab014a411578d2e289f39bd30.svg",
     "index.html": "/YouVah/index.html",
-    "main.2a6046f8.css.map": "/YouVah/static/css/main.2a6046f8.css.map",
-    "main.c269c8b2.js.map": "/YouVah/static/js/main.c269c8b2.js.map",
+    "main.53fd6ce4.css.map": "/YouVah/static/css/main.53fd6ce4.css.map",
+    "main.44bfbefc.js.map": "/YouVah/static/js/main.44bfbefc.js.map",
     "734.f8358d55.chunk.js.map": "/YouVah/static/js/734.f8358d55.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a6046f8.css",
-    "static/js/main.c269c8b2.js"
+    "static/css/main.53fd6ce4.css",
+    "static/js/main.44bfbefc.js"
   ]
 }
