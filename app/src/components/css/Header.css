@@ -1,0 +1,169 @@
+.Header{
+    position: absolute;
+    width: calc(100% - 200px);
+    height: 276px;
+    left: 100px;
+    top: 100px;
+    
+    background: #202C38;
+    border-radius: 12px;
+}
+
+#CW2{
+    position: absolute;
+    width: 400.57px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+#CW1{
+    position: absolute;
+    width: 400.57px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+#Header-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    
+    position: absolute;
+    /* width: 484px;
+    height: 196px;
+    left: 363px;
+    top: 44px; */
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Header-div-text{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 484px;
+    height: 96px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Header-div-maintext{
+    
+    /* width: 474px;
+    height: 40px; */
+    font-family: 'Gilroy-Bold';
+    font-size: 32px;
+    line-height: 38px;
+    /* display: flex;
+    align-items: flex-start;
+    text-align: center; */
+    align-self: flex-start;
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Header-div-subtext{
+    /* width: 484px;
+    height: 48px; */
+    
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#Header-div-button{
+    /* all: unset; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 8px;
+    gap: 8px;
+    
+    width: 251px;
+    height: 56px;
+    
+    /* Gradient for dark */
+    
+    background: linear-gradient(90deg, #B25AFF 0%, #7A27CA 100%);
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#Header-div-button-text{
+    /* width: 203px;
+    height: 20px; */
+    all: unset;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    /* Light Bg */
+    
+    color: #FDFBFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#GraphicElement{
+    position: absolute;
+    left: 67.5%;
+    right: 27.18%;
+    top: 5.42%;
+    bottom: 78.98%;
+    
+    
+}

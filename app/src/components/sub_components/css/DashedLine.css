@@ -1,0 +1,15 @@
+.DashedLine{
+    width: 540px;
+    height: 0px;
+    
+    /* Light Bg */
+    
+    border: 0.5px dashed #FDFBFF;
+    
+    /* Inside auto layout */
+    display: flex;
+    
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+}

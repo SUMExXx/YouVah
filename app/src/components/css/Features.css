@@ -1,0 +1,17 @@
+.Features{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+        gap: 16px;
+    
+        position: absolute;
+        width: 520px;
+        height: 670px;
+        left: 820px;
+        top: 768px;
+    
+        
+        border-radius: 12px;
+}
