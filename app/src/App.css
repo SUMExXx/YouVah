@@ -1,7 +1,11 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-bottom: 60px;
   text-align: center;
-  
-  height: 1496px;
+  /* width: 100%;
+  height: 100%; */
   background: #15202B;
 }
 
@@ -33,16 +37,33 @@
 
 .top-box{
   display: flex;
+  flex-direction: column;
   align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-box{
+  display: flex;
+  
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  gap: 60px;
+    /* width: calc(100% - 200px); */
+    /* height: 670px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins/Poppins-Medium.ttf");
 }
 
 @font-face {

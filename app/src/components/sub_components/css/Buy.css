@@ -1,0 +1,78 @@
+.Buy{
+
+
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+    
+        align-self: flex-end;
+        width: 520px;
+        height: 68px;
+
+        margin-top: auto;
+        
+        
+
+}
+
+.price-div{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        width: 117px;
+        height: 68px;
+}
+
+.price-heading{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        /* line-height: 48px; */
+        color: #FDFBFF;
+}
+
+.price-subtext{
+    width: 117px;
+        height: 20px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #FDFBFF;
+}
+
+.buy-button{
+
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 120px 8px;
+        gap: 8px;
+    
+        width: 379px;
+        height: 56px;
+
+    background: linear-gradient(90deg, #B25AFF 0%, #7A27CA 100%);
+        border-radius: 8px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+
+        font-family: 'Gilroy-Bold';
+            font-size: 18px;
+            line-height: 20px;
+
+            color: #FDFBFF;
+}

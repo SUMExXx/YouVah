@@ -1,30 +1,36 @@
 .Header{
-    position: absolute;
-    width: calc(100% - 200px);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: relative;
+    /* width: calc(100% - 200px); */
+    /* width: 1300px; */
     height: 276px;
-    left: 100px;
-    top: 100px;
+    /* left: 100px;
+    top: 100px; */
     
     background: #202C38;
     border-radius: 12px;
 }
 
 #CW2{
-    position: absolute;
-    width: 400.57px;
+    position: relative;
+    /* width: 400.57px; */
     height: 100%;
-    left: 0px;
-    top: 0px;
+    
     border-radius: 12px 0px 0px 12px;
 }
 
 #CW1{
-    position: absolute;
-    width: 400.57px;
+    position: relative;
+    /* width: 400.57px; */
     height: 100%;
-    right: 0px;
-    top: 0px;
+    
     border-radius: 0px 12px 12px 0px;
+}
+
+#Visual{
+    display: none;
 }
 
 #Header-div{
@@ -34,15 +40,15 @@
     padding: 0px;
     gap: 44px;
     
-    position: absolute;
+    position: relative;
     /* width: 484px;
     height: 196px;
     left: 363px;
     top: 44px; */
 
-    left: 50%;
+    /* left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 #Header-div-text{
@@ -84,7 +90,7 @@
     flex-grow: 0;
 }
 
-#Header-div-subtext{
+.Header-div-subtext{
     /* width: 484px;
     height: 48px; */
     
@@ -108,7 +114,11 @@
     flex-grow: 0;
 }
 
-#Header-div-button{
+#subtext2{
+    display: none;
+}
+
+.Header-div-button{
     /* all: unset; */
     display: flex;
     flex-direction: row;
@@ -120,6 +130,12 @@
     width: 251px;
     height: 56px;
     
+    font-family: 'Gilroy-Bold';
+        font-size: 18px;
+        line-height: 20px;
+
+    color: #FDFBFF;
+
     /* Gradient for dark */
     
     background: linear-gradient(90deg, #B25AFF 0%, #7A27CA 100%);
@@ -132,30 +148,8 @@
     flex-grow: 0;
 }
 
-#Header-div-button-text{
-    /* width: 203px;
-    height: 20px; */
-    all: unset;
-    font-family: 'Gilroy-Bold';
-    font-size: 18px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    
-    /* Light Bg */
-    
-    color: #FDFBFF;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+#button2{
+    display: none;
 }
 
 #GraphicElement{
@@ -166,4 +160,53 @@
     bottom: 78.98%;
     
     
+}
+
+@media screen and (max-width: 1480px) {
+
+    .Header{
+        flex-direction: column;
+        height: 100%;
+        width: 600px;
+        padding-bottom: 40px;
+    }
+
+    #Visual{
+        display: block;
+        width: 100%;
+    }
+
+    #CW1{
+        display: none;
+    }
+
+    #CW2{
+        display: none;
+    }
+
+    #button1{
+        display: none;
+    }
+
+    #button2{
+        display: block;
+    }
+
+    #subtext1{
+        display: none;
+    }
+
+    #subtext2{
+        display: block;
+    }
+
+        #GraphicElement {
+            position: absolute;
+            left: 88.5%;
+            right: 27.18%;
+            top: 56.42%;
+            bottom: 78.98%;
+    
+    
+        }
 }

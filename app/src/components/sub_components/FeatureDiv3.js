@@ -1,15 +1,18 @@
-import './css/FeatureDiv3.css'
-import Excel from '../../images/excel.svg'
+import "./css/FeatureDiv1.css";
 
-function FeatureDiv3(props) {
+
+function FeatureDiv3() {
   return (
-    <div className="FeatureDiv3">
-        <object type="image/svg+xml" data={Excel} Class="icon">Your browser does not support SVG.</object>
-        <h1 className="Feature-heading">{props.heading}</h1>
-        <h3 className="Feature-text">
-            {props.text}
-        </h3>
-
+    <div className="FeatureDiv1" style={{background: "#1D243F"}}>
+        <div className="FeatureDiv1-container">
+            <h1 className="FeatureDiv1-heading">Course Includes :</h1>
+            <ul className="FeatureDiv1-list">
+                <li className="FeatureDiv1-li">Life time access</li>
+                <li className="FeatureDiv1-li">Certificate of completion</li>
+            </ul>
+      
+        </div>
+      
     </div>
   );
 }

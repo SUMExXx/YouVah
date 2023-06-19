@@ -1,15 +1,20 @@
-import './css/FeatureDiv2.css'
-import Books from '../../images/books.svg'
+import "./css/FeatureDiv1.css";
 
-function FeatureDiv2(props) {
+
+function FeatureDiv2() {
   return (
-    <div className="FeatureDiv2">
-        <object type="image/svg+xml" data={Books} Class="icon">Your browser does not support SVG.</object>
-        <h1 className="Feature-heading">{props.heading}</h1>
-        <h3 className="Feature-text">
-            {props.text}
-        </h3>
-
+    <div className="FeatureDiv1" style={{background: "#27295B"}}>
+        <div className="FeatureDiv1-container">
+            <h1 className="FeatureDiv1-heading">Skills You Will Learn :</h1>
+            <ul className="FeatureDiv1-list">
+                <li className="FeatureDiv1-li">Content Designing</li>
+                <li className="FeatureDiv1-li">Content Adaptation</li>
+                <li className="FeatureDiv1-li">Content Writing as a Career</li>
+                <li className="FeatureDiv1-li">SEO: Understanding search engine optimization (SEO)</li>
+            </ul>
+      
+        </div>
+      
     </div>
   );
 }

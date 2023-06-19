@@ -12,9 +12,13 @@ function App() {
       <div className="top-box">
         <Header />
         <Companies />
-        <Content />
-        <Features />
+       
       </div>
+       <div className="content-box">
+          <Content />
+          <Features />
+        </div>
+          
     </div>
   );
 }

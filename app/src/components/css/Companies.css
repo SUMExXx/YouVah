@@ -9,13 +9,14 @@
     padding: 0px;
     gap: 36px;
     
-    position: absolute;
-    width: 837px;
+    position: relative;
+    /* width: 837px; */
+    width: 800px;
     height: 200px;
     /* left: 270px; */
-    top: 450px;
-    left: 50%;
-    transform: translate(-50%);
+    
+    /* left: 50%;
+    transform: translate(-50%); */
 
     
     
@@ -24,7 +25,7 @@
 }
 
 .Companies-div-text{
-    width: 600px;
+    /* width: 600px; */
     height: 48px;
     
     font-family: 'Gilroy-SemiBold';
@@ -48,13 +49,17 @@
 .Companies-div-images-div{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 100px;
     
-    width: 814px;
-    height: 88px;
+    /* gap: 100px; */
+    
+    /* width: 814px; */
+    width: 96%;
+    /* height: 88px; */
+    justify-content: space-between;
     
     
     /* Inside auto layout */
@@ -65,8 +70,11 @@
 }
 
 .Company-img1{
-    width: 191px;
-    height: 73px;
+    max-width: 191px;
+    max-height: 73px;
+    height: auto;
+    width: auto;
+
     
     /* Inside auto layout */
     
@@ -76,8 +84,8 @@
 }
 
 .Company-img2{
-    width: 80px;
-    height: 87px;
+    /* width: 80px;
+    height: 87px; */
     
     /* Inside auto layout */
     
@@ -87,8 +95,8 @@
 }
 
 .Company-img3{
-    width: 155px;
-    height: 87.48px;
+    /* width: 155px;
+    height: 87.48px; */
         
     /* Inside auto layout */
     
@@ -98,12 +106,30 @@
 }
 
 .Company-img4{
-    width: 88px;
-    height: 88px;
+    /* width: 88px;
+    height: 88px; */
     
     /* Inside auto layout */
     
     flex: none;
     order: 3;
     flex-grow: 0;
+}
+
+@media screen and (max-width: 1480px) {
+    .Companies {
+            width: 700px;
+        }
+}
+
+@media screen and (max-width: 910px) {
+    .Companies {
+        width: 600px;
+
+        border: none;
+    }
+
+    .Companies-div-text{
+        border: none;
+    }
 }

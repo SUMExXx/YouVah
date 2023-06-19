@@ -5,11 +5,12 @@
     padding: 24px;
     gap: 8px;
     
-    position: absolute;
+    width: 700px;
+    /* position: absolute;
     width: 654px;
     height: 670px;
     left: 100px;
-    top: 768px;
+    top: 768px; */
     
     background: #202C38;
     box-shadow: 5px 4px 39px rgba(0, 0, 0, 0.25);
@@ -24,7 +25,7 @@
     gap: 32px;
     
     width: 546px;
-    height: 526px;
+    /* height: 526px; */
     
     
     /* Inside auto layout */
@@ -111,7 +112,7 @@
     gap: 20px;
     
     width: 546px;
-    height: 450px;
+    /* height: 450px; */
     
     
     /* Inside auto layout */
@@ -121,11 +122,15 @@
     flex-grow: 0;
 }
 
+/* .button-div{
+    
+} */
+
 .ViewAllButton{
     box-sizing: border-box;
     
     /* Auto layout */
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -134,14 +139,15 @@
     
     /* margin: 0px auto 0px auto; */
 
-    left: 50%;
+    /* left: 50%;
     transform: translate(-50%);
     width: 164px;
-    height: 56px;
+    height: 56px; */
     
     /* top: 1352px; */
     
-    
+    width: 164px;
+        height: 56px;
 
     order: 1;
     align-self: center;

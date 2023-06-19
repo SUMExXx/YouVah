@@ -1,17 +1,22 @@
 .Features{
     display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: top;
         align-items: flex-start;
         
-        gap: 16px;
-    
-        position: absolute;
+        gap: 35px;
+        /* gap: auto; */
+        
+
+        width: 520px;
+        height: 100%;
+
+        /* position: absolute;
         width: 520px;
         height: 670px;
         left: 820px;
-        top: 768px;
-    
+        top: 768px; */
+        /* background-color: #33307B; */
         
         border-radius: 12px;
 }

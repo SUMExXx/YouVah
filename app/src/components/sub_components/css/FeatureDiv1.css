@@ -1,23 +1,28 @@
-.FeatureDiv{
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 20px;
-        gap: 16px;
-    
-        position: absolute;
-        width: 520px;
-        height: 160px;
-        left: 820px;
-        top: 768px;
-    
-        background-color: #33307B;
-        border-radius: 12px;
+.FeatureDiv1{
         
+        color: #EEEEEE;
+
+        width: 520px;
+            /* height: 160px; */
+            left: 820px;
+            top: 768px;
+        
+            background: #33307B;
+            border-radius: 12px;
+    
+    
 }
 
-.Feature-heading{
+.FeatureDiv1-container{
+    margin: 20px;
+}
+
+.FeatureDiv1-list{
+    position: relative;
+    margin-top: 16px;
+}
+
+.FeatureDiv1-heading{
     font-family: 'Gilroy-Bold';
         font-size: 24px;
         line-height: 20px;
@@ -27,43 +32,20 @@
         align-items: center;
         letter-spacing: -0.2px;
         text-transform: capitalize;
-        margin-top: 10px;
     
         color: #EEEEEE;
-    
-    
-        /* Inside auto layout */
-    
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        z-index: 1;
+
+        
 }
 
-.Feature-text{
+.FeatureDiv1-li{
     font-family: 'Gilroy-Medium';
         font-size: 18px;
         line-height: 28px;
         /* or 156% */
     
-        display: flex;
-        align-items: center;
-        margin-top: 20px;
+        
         text-align: left;
+    
         color: #EEEEEE;
-    
-    
-        /* Inside auto layout */
-    
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-}
-
-.icon{
-    position: relative;
-    width: 44px;
-    height: 44px;
-    left: -30px;
-    top: -2px;
 }
