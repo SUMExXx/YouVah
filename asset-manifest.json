@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/YouVah/static/css/main.2a6046f8.css",
+    "main.js": "/YouVah/static/js/main.c269c8b2.js",
+    "static/js/734.f8358d55.chunk.js": "/YouVah/static/js/734.f8358d55.chunk.js",
+    "static/media/CW 1.png": "/YouVah/static/media/CW 1.c42c067626c776879e39.png",
+    "static/media/CW 2.png": "/YouVah/static/media/CW 2.e86fb9dce87f70711580.png",
+    "static/media/Roboto-Medium.ttf": "/YouVah/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Poppins-Medium.ttf": "/YouVah/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Gilroy-Medium.ttf": "/YouVah/static/media/Gilroy-Medium.1c23f810e531d0702f76.ttf",
+    "static/media/Gilroy-Semibold.ttf": "/YouVah/static/media/Gilroy-Semibold.41fa36c3c8e966b35423.ttf",
+    "static/media/Gilroy-Bold.ttf": "/YouVah/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/visual.png": "/YouVah/static/media/visual.b45beda61d68059623a4.png",
+    "static/media/company_img3.png": "/YouVah/static/media/company_img3.63b051ae508dc884192c.png",
+    "static/media/company_img1.png": "/YouVah/static/media/company_img1.9271c682a1fe20544bca.png",
+    "static/media/GRAHPIC ELEMENT.svg": "/YouVah/static/media/GRAHPIC ELEMENT.881bc09ab014a411578d2e289f39bd30.svg",
+    "index.html": "/YouVah/index.html",
+    "main.2a6046f8.css.map": "/YouVah/static/css/main.2a6046f8.css.map",
+    "main.c269c8b2.js.map": "/YouVah/static/js/main.c269c8b2.js.map",
+    "734.f8358d55.chunk.js.map": "/YouVah/static/js/734.f8358d55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a6046f8.css",
+    "static/js/main.c269c8b2.js"
+  ]
+}
