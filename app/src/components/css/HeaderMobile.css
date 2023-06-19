@@ -1,0 +1,42 @@
+@media screen and (max-width: 640px) {
+    .Header {
+        width: 320px;
+        height: 362px;
+    }
+
+    #Header-div{
+        gap: 10px;
+    }
+
+    #Header-div-maintext{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Header-div-subtext{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .Header-div-button{
+        width: 140px;
+        height: 36px;
+
+        border-radius: 8px;
+    }
+
+    .Header-div-button{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #GraphicElement{
+        width: 19.21px;
+        height: 24px;
+
+        left: 86.5%;
+        right: 27.18%;
+        top: 50.42%;
+        bottom: 78.98%;
+    }
+}

@@ -120,12 +120,12 @@
 
 .Header-div-button{
     /* all: unset; */
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     justify-content: center;
     align-items: center;
-    padding: 12px 24px 8px;
-    gap: 8px;
+    /* padding: 12px 24px 8px;
+    gap: 8px; */
     
     width: 251px;
     height: 56px;

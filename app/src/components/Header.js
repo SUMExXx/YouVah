@@ -2,6 +2,7 @@ import CW2 from '../images/CW 2.png'
 import CW1 from '../images/CW 1.png'
 import Visual from '../images/visual.png'
 import './css/Header.css'
+import './css/HeaderMobile.css'
 import GraphicElement from '../images/GRAHPIC ELEMENT.svg'
 
 function Header() {

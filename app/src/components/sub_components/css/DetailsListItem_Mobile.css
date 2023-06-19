@@ -1,0 +1,30 @@
+@media screen and (max-width: 640px) {
+
+    .Companies-details-list-item-div{
+        align-items: center;
+    }
+
+    .Companies-details-list-item-div2{
+        width: 250px;
+    }
+
+    .item_no{
+        font-size: 10px;
+    }
+
+    .item_text{
+        font-size: 12px;
+    }    
+
+    .circle{
+        width: 16px;
+            height: 16px;
+        
+            border: 0.5px solid #FBFBFB;
+            border-radius: 32px;
+    }
+
+    .item_time{
+        font-size: 10px;
+    }
+}

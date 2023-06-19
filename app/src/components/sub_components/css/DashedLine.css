@@ -13,3 +13,9 @@
     /* order: 1; */
     flex-grow: 0;
 }
+
+@media screen and (max-width: 640px) {
+    .DashedLine{
+        width: 319px;
+    }
+}

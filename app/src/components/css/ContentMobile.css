@@ -1,0 +1,34 @@
+@media screen and (max-width: 640px) {
+    .Content{
+        width: 359px;
+        border-radius: 0px;
+    }
+
+    .Content-box{
+        width: 319px;
+        gap: 10px;
+    }
+
+    .Content-heading{
+        font-size: 20px;
+    }
+
+    .Content-heading-subtext{
+        font-size: 11px;
+    }
+
+    .Content-details{
+        gap: 10px;
+        width: 100%;
+    }
+
+    .ViewAllButton{
+        width: 98px;
+        height: 36px;
+    }
+
+    .ViewAllButton-text{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

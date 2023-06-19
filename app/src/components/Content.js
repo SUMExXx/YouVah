@@ -1,4 +1,6 @@
 import './css/Content.css'
+import './css/ContentMobile.css'
+
 import DetailsListItem from './sub_components/DetailsListItem'
 import DashedLine from './sub_components/DashedLine';
 

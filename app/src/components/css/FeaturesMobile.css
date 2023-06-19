@@ -1,0 +1,6 @@
+@media screen and (max-width: 640px) {
+    .Features{
+        width: 312px;
+        gap: 16px;
+    }
+}

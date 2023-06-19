@@ -3,6 +3,7 @@ import FeatureDiv2 from "./sub_components/FeatureDiv2";
 import FeatureDiv3 from "./sub_components/FeatureDiv3";
 import Buy from "./sub_components/Buy"
 import './css/Features.css'
+import './css/FeaturesMobile.css'
 
 function Features() {
   return (

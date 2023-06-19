@@ -45,6 +45,13 @@
   padding-top: 5%;
 }
 
+@media screen and (max-width: 640px) {
+  .top-box{
+    width: 100%;
+    gap: 80px
+  }
+}
+
 .content-box{
   display: flex;
   

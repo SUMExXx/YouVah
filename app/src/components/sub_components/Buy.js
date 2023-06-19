@@ -1,5 +1,5 @@
 import "./css/Buy.css";
-
+import "./css/BuyMobile.css"
 
 function Buy() {
   return (

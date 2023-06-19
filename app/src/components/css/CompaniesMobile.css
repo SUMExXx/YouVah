@@ -1,0 +1,16 @@
+@media screen and (max-width: 640px) {
+    .Companies{
+        width: 320px;
+        height: 75px;
+        gap: 10px;
+    }
+
+    .Companies-div-text{
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .Company-img{
+        height: 36px;
+    }
+}

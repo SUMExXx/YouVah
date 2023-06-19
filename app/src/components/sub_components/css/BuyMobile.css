@@ -1,0 +1,15 @@
+@media screen and (max-width: 640px) {
+
+    .price-heading{
+        font-size: 20px;
+    }
+
+    .price-subtext{
+        font-size: 12px;
+        width: 90px;
+    }
+
+    .buy-button{
+        width: 208px;
+    }
+}

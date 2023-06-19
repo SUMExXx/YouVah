@@ -2,7 +2,7 @@
         
         color: #EEEEEE;
 
-        width: 520px;
+        width: 100%;
             /* height: 160px; */
             left: 820px;
             top: 768px;
@@ -20,12 +20,13 @@
 .FeatureDiv1-list{
     position: relative;
     margin-top: 16px;
+    align-content: left;
 }
 
 .FeatureDiv1-heading{
     font-family: 'Gilroy-Bold';
         font-size: 24px;
-        line-height: 20px;
+        /* line-height: 20px; */
         /* identical to box height, or 83% */
     
         display: flex;
@@ -41,11 +42,25 @@
 .FeatureDiv1-li{
     font-family: 'Gilroy-Medium';
         font-size: 18px;
-        line-height: 28px;
+        /* line-height: 28px; */
         /* or 156% */
     
         
         text-align: left;
     
         color: #EEEEEE;
+}
+
+@media screen and (max-width: 640px) {
+    .FeatureDiv1-heading{
+        font-size: 16px;
+    }
+
+    .FeatureDiv1-li{
+        font-size: 12px;
+    }
+
+    .FeatureDiv1-list{
+        margin-top: 10px;
+    }
 }

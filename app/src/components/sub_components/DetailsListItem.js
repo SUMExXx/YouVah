@@ -1,4 +1,5 @@
 import './css/DetailsListItem.css'
+import './css/DetailsListItem_Mobile.css'
 
 function DetailsListItem(props) {
   return (
